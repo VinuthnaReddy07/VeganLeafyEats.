@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vegan Leafy Eats</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Vegan Leafy Eats</h1>
+        <p>Choose your ingredients and get a delicious recipe!</p>
+    </header>
+
+    <section id="ingredient-selection">
+        <h2>Select Your Ingredients</h2>
+        <div id="ingredients-list">
+            <label><input type="checkbox" value="Spinach"> Spinach</label><br>
+            <label><input type="checkbox" value="Kale"> Kale</label><br>
+            <label><input type="checkbox" value="Tomatoes"> Tomatoes</label><br>
+            <label><input type="checkbox" value="Cucumber"> Cucumber</label><br>
+            <label><input type="checkbox" value="Avocado"> Avocado</label><br>
+        </div>
+        <button id="generate-recipe">Generate Recipe</button>
+    </section>
+
+    <section id="recipe-result" style="display:none;">
+        <h2>Your Recipe</h2>
+        <div id="recipe-details"></div>
+        <div id="recipe-nutrition"></div>
+        <img id="recipe-image" alt="Recipe Image" />
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Vegan Leafy Eats</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
