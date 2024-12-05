@@ -33,17 +33,17 @@ function createRecipe(ingredients) {
         "Spinach": {
             description: "Spinach Salad with Avocado and Cucumber",
             nutrition: "Calories: 250 | Protein: 5g | Carbs: 20g | Fat: 20g",
-            image: "https://via.placeholder.com/500x300.png?text=Spinach+Salad"
+            image: "https://th.bing.com/th/id/OIP.K1GuQPic1j_S4O28uFpWhQHaNJ?rs=1&pid=ImgDetMain"
         },
         "Kale": {
             description: "Kale Smoothie with Avocado and Tomatoes",
             nutrition: "Calories: 150 | Protein: 3g | Carbs: 18g | Fat: 10g",
-            image: "https://via.placeholder.com/500x300.png?text=Kale+Smoothie"
+            image: "https://kitchenconfidante.com/wp-content/uploads/2018/08/Lemony-Kale-Avocado-Salad-kitchenconfidante.com-3377.jpg"
         },
         "Tomatoes": {
             description: "Tomato and Cucumber Salad",
             nutrition: "Calories: 120 | Protein: 4g | Carbs: 15g | Fat: 6g",
-            image: "https://via.placeholder.com/500x300.png?text=Tomato+Salad"
+            image: "https://bing.com/th?id=OSK.f129c86746d2dd8e2d476ccf7cee9e2d"
         }
     };
 
